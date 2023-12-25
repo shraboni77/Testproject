@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [EasyJobs Test Regression PW Suite]" guice-stage="DEVELOPMENT" verbose="4">
+  <test thread-count="5" name="EasyJobs Dashboard Page Test(failed)" verbose="4">
+    <classes>
+      <class name="com.qa.easyjobs.tests.DashboardPageTest">
+        <methods>
+          <include name="dashboardPageTitleTest"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.qa.easyjobs.tests.DashboardPageTest -->
+    </classes>
+  </test> <!-- EasyJobs Dashboard Page Test(failed) -->
+</suite> <!-- Failed suite [EasyJobs Test Regression PW Suite] -->

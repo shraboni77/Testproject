@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="EasyJobs Test Regression PW Suite"
+ verbose="4">
+	<test name="EasyJobs Login Page Test">
+		<classes>
+			<class name="com.qa.easyjobs.tests.LoginPageTest" />
+				</classes>
+	</test>
+
+	
+<test name="EasyJobs Dashboard Page Test">
+		<classes>
+			<class name="com.qa.easyjobs.tests.DashboardPageTest" />
+		</classes>
+	</test>
+
+
+
+</suite>
